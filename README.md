@@ -1,1 +1,1 @@
-# flex_project
+# Project where I will choose a graphic layout, and mock it to demonstrate success in learning Flexbox as well as other standard CSS Elements.
