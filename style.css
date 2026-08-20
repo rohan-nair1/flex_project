@@ -13,11 +13,13 @@
 
 .page#p1 {
     background-color: #1F2937;
+    padding-bottom: 100px;
 }
 
 .nav-bar {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .nav-bar h1 {
@@ -26,9 +28,69 @@
 }
 
 #logo {
-    margin-left:100px;
+    margin-left:30px;
 }
 
-.nav-bar h2 {
-    margin-left:300px;
+.nav-links{
+    margin-left: auto;
+    display: flex;
+    gap:40px;
+    margin-right: 200px;
+    
 }
+
+.nav-links a {
+    color: gray;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.main .txtbut {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.main .txtbut h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.main .txtbut p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main .txtbut button {
+    width:180px;
+    height:auto;
+    background-color: #3882F6;
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: 900;
+    border-radius:20px;
+
+}
+
+.main img {
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.page#p2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+
